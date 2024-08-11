@@ -8,7 +8,7 @@ public interface FunctionalInterfaceMultipleAbstractMethodsError {
 
 	}
 
-	
+	//any number of default methods ok...any number of static methods ok but only one abstract method allowed in FunctionalInterface
 	void deleteUser();
 	void createUser();
 	
