@@ -1,14 +1,14 @@
 package com.je.lambda;
 
-public class UserTest implements UserRepository {
+public class UserTestUsingInterfaceReferenceAnanymousClassLambda implements UserRepository {
 
 	public static void main(String[] args) {
 		
 		//normal way
-		UserRepository user=new UserTest();
+		UserRepository user=new UserTestUsingInterfaceReferenceAnanymousClassLambda();
 		user.createUser();
 		
-		//using non normal way using  anaonymous inner class way these replaced now with labda expression
+		//using non normal way using  anonymous inner class way these replaced now with labda expression
 		UserRepository user2=new UserRepository() {
 			
 			@Override
